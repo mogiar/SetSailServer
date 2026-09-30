@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Water
+  m_Shader: {fileID: -6465566751694194690, guid: 6149b0e0852805a40a719d0038a8d4d6, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_01a00e2206794d5fab06a2a777004ae3: 4.7
+    - Vector1_2bece3e0c04147c8880c7d12c1b159fc: 1.04
+    - Vector1_58d446f4228a43d4b3997af4ff49827e: 2.5
+    - Vector1_5fce3c748e0147578d3f1944f0c2f864: 4.03
+    - Vector1_67967f87c0f348f680da0f72a42e0a9e: 43.21
+    - Vector1_6f9cbbd39cab4a379380374670694052: 500
+    - Vector1_970dec36b2974211afd0f7d9d29078e3: 106.72
+    - Vector1_b43f994db7654bdfb0cd8f74ac7f2a40: 1
+    - Vector1_ea0b8c19e71f492e875b9dab30def61f: 0.05
+    m_Colors:
+    - Color_083c48ca3aaf41ae9e3ef928bd2c5937: {r: 0, g: 1, b: 0.9693696, a: 1}
+    - Color_907ae2dccf584c5a9a0abd657cd121f6: {r: 0.047392182, g: 0.46517986, b: 0.6698113, a: 0.69411767}
+    - Color_b70f55f0feea4333b41727e6134417f7: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &615581002721586111
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

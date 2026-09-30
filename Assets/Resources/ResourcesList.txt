@@ -1,0 +1,12 @@
+EnemyFish
+Enemys/EnemyFish
+15
+Pirates
+Enemys/EnemyShip
+20
+Drop
+Drops/Drop
+50
+Fish
+Wildlife/Fish
+200

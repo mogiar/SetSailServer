@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3391493396650360823
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SeaCartoon
+  m_Shader: {fileID: -6465566751694194690, guid: 62e42b4d424f5fc40896cf7ca8e69252, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_ed5520de4e4248a589dd34b84f3ebc9c:
+        m_Texture: {fileID: 2800000, guid: 8f1eb933b3ee8d14abec525fec4e122c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_26dced5e6058441db53fd10772607fe8: 0.1
+    - Vector1_884f810a5fa24b12825d43c0ad8b1968: 0.47
+    - Vector1_906c4410c4bc43ad9c9ae9b7b1853e25: -1.4
+    - Vector1_b3cd3cbe0d594702b1aead49e33a3039: 0.1
+    - Vector1_d22f4b4ccd1b49d4b130a7b0c7a9578a: 70
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_b6e8251d6c434968960f8cac0e131070: {r: 1, g: 1, b: 1, a: 1}
+    - Color_e5ae9d5bf41046eeba6833c21c306cb9: {r: 0.12130654, g: 0.8748317, b: 0.8867924, a: 0.8156863}
+    - Vector3_7fe3da76b1374b0480f2c0db3c4bff00: {r: 1, g: 0.17, b: 1, a: 0}
+  m_BuildTextureStacks: []

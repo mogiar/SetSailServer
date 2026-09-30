@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5559522015943998429
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_USG_OceanDisplace_URP
+  m_Shader: {fileID: -6465566751694194690, guid: 1f25ea57024ff974aaeb83326a104473, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_19B6F7E7:
+        m_Texture: {fileID: 2800000, guid: 48873c1bfecad1540b324b3c9f930767, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F61624DA:
+        m_Texture: {fileID: 2800000, guid: f701bba1e7ce49b41b28f9e86860be62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_1C8FEA19: 1.93
+    - Vector1_50C74F87: 1.42
+    - Vector1_5DE38BA8: 0.371
+    - Vector1_712C90A3: 31.6
+    - Vector1_C8CD7BB7: 0.1
+    - Vector1_EBF894A3: 0.01
+    - Vector1_F8D9205E: 0.01
+    m_Colors:
+    - Color_31F2026D: {r: 0.27327338, g: 0.74891496, b: 0.8396226, a: 0}
+    - Color_C8989E96: {r: 0.34242618, g: 0.4809069, b: 0.764151, a: 0}
+  m_BuildTextureStacks: []

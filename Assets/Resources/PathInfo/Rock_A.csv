@@ -1,0 +1,23 @@
+static name,static amount,dynamic name,dynamic amount
+TreasureChest,40,Fish,10
+islandsmallrockCollectionA,10,EnemyFish,25
+islandsmallrockCollectionB,10,,
+islandsmallrockCollectionC,10,,
+islandsmallrockCollectionD,10,,
+islandsmallrockCollectionE,10,,
+islandsmallrockCollectionF,10,,
+islandsmallrockCollectionG,10,,
+islandsmallrockCollectionH,10,,
+islandsmallrockCollectionI,10,,
+islandsmallrockCollectionJ,10,,
+islandsmallvolcanicCollectionA,10,,
+islandsmallvolcanicCollectionB,10,,
+islandsmallvolcanicCollectionC,10,,
+islandsmallvolcanicCollectionD,10,,
+islandsmallvolcanicCollectionE,10,,
+islandsmallvolcanicCollectionF,10,,
+islandsmallvolcanicCollectionG,10,,
+islandsmallvolcanicCollectionH,10,,
+islandsmallvolcanicCollectionI,10,,
+islandsmallvolcanicCollectionJ,10,,
+equipshop,30,,

@@ -1,0 +1,278 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff884ff0c1e, pid=5384, tid=3040
+#
+# JRE version:  (17.0.1+12) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (17.0.1+12-LTS-39, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# Problematic frame:
+# V  [jvm.dll+0x2c0c1e]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dfile.encoding=UTF-8 
+
+Host: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, 6 cores, 15G,  Windows 10 , 64 bit Build 19041 (10.0.19041.1348)
+Time: Wed Dec 22 14:29:29 2021 Jerusalem Standard Time elapsed time: 0.019373 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001e9ad3edb60):  JavaThread "Unknown thread" [_thread_in_vm, id=3040, stack(0x000000d98f400000,0x000000d98f500000)]
+
+Stack: [0x000000d98f400000,0x000000d98f500000],  sp=0x000000d98f4ff110,  free space=1020k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x2c0c1e]
+V  [jvm.dll+0x2c1091]
+V  [jvm.dll+0x61bdb6]
+V  [jvm.dll+0x61bfe0]
+V  [jvm.dll+0x61b45b]
+V  [jvm.dll+0x6172a8]
+V  [jvm.dll+0x7a0215]
+V  [jvm.dll+0x365791]
+V  [jvm.dll+0x77f6cc]
+V  [jvm.dll+0x3e812f]
+V  [jvm.dll+0x3e9bd1]
+C  [jli.dll+0x527b]
+C  [ucrtbase.dll+0x21bb2]
+C  [KERNEL32.DLL+0x17034]
+C  [ntdll.dll+0x52651]
+
+
+siginfo: EXCEPTION_ACCESS_VIOLATION (0xc0000005), reading address 0x0000000000000000
+
+
+Registers:
+RAX=0x00000e4a73fb1ff9, RBX=0x0000000000000000, RCX=0x0000000000000000, RDX=0x00007ff88561a001
+RSP=0x000000d98f4ff110, RBP=0x0000000000000001, RSI=0x00000008008db988, RDI=0x0000000000000000
+R8 =0x0000000000000001, R9 =0x0000000000000001, R10=0x000001e9ad4c8080, R11=0x0000000000000246
+R12=0x0000000000000000, R13=0x0000000000000000, R14=0x0000000000000001, R15=0x00007ff88535e580
+RIP=0x00007ff884ff0c1e, EFLAGS=0x0000000000010246
+
+Top of Stack: (sp=0x000000d98f4ff110)
+0x000000d98f4ff110:   000000d98f4ff1f8 0000000000001000
+0x000000d98f4ff120:   0000000000790000 00007ff88534ad00
+0x000000d98f4ff130:   0000000800c00000 000000000000000c
+0x000000d98f4ff140:   000000d98f4ff260 0000000000000000
+0x000000d98f4ff150:   00000e4a73fb1e79 0000000000000002
+0x000000d98f4ff160:   00000e4a73fb1ff9 0000000800000000
+0x000000d98f4ff170:   0000000000000000 00007ff884ff1091
+0x000000d98f4ff180:   0000000000000048 0000000000000000
+0x000000d98f4ff190:   0000000000000000 000001e9c84118a0
+0x000000d98f4ff1a0:   00000008008db980 000000d900000001
+0x000000d98f4ff1b0:   0000000000000000 0000000000000000
+0x000000d98f4ff1c0:   0000000000000000 0000000000000000
+0x000000d98f4ff1d0:   0000000000000000 ffffffff00c00000
+0x000000d98f4ff1e0:   0000000000000000 0000000000000000
+0x000000d98f4ff1f0:   00000e4a73fb1f69 0000000000000000
+0x000000d98f4ff200:   0000000000000000 0000000000000000 
+
+Instructions: (pc=0x00007ff884ff0c1e)
+0x00007ff884ff0b1e:   00 48 83 c2 0f 48 c1 ea 03 48 63 d2 e8 91 59 35
+0x00007ff884ff0b2e:   00 48 8b d8 48 85 c0 74 0b 89 38 eb 09 41 c6 04
+0x00007ff884ff0b3e:   24 02 eb 22 33 db 49 83 7f 08 00 75 19 4c 63 84
+0x00007ff884ff0b4e:   24 80 00 00 00 48 8d 4b 04 48 8b d5 e8 01 a8 56
+0x00007ff884ff0b5e:   00 49 89 5c 24 20 48 8b 9c 24 88 00 00 00 49 83
+0x00007ff884ff0b6e:   3e 00 74 15 48 8b 54 24 28 48 8b ce e8 31 9d de
+0x00007ff884ff0b7e:   ff 49 8b ce e8 99 9c de ff 48 89 5e 20 48 8b 5c
+0x00007ff884ff0b8e:   24 70 4c 89 76 10 4c 89 6e 18 48 83 c4 30 41 5f
+0x00007ff884ff0b9e:   41 5e 41 5d 41 5c 5f 5e 5d c3 cc cc cc cc cc cc
+0x00007ff884ff0bae:   cc cc 40 53 48 83 ec 20 48 8b d9 e8 92 a1 35 00
+0x00007ff884ff0bbe:   48 8b 53 28 48 ff ca 48 03 d0 48 ff c8 48 f7 d0
+0x00007ff884ff0bce:   48 23 c2 48 83 c4 20 5b c3 cc cc cc cc cc cc cc
+0x00007ff884ff0bde:   cc cc 48 89 5c 24 10 48 89 6c 24 18 48 89 74 24
+0x00007ff884ff0bee:   20 57 48 83 ec 60 48 8b 05 7d 03 7f 00 48 33 c4
+0x00007ff884ff0bfe:   48 89 44 24 50 80 3d 14 1d 7c 00 00 0f b6 ea 48
+0x00007ff884ff0c0e:   8b f1 74 17 80 39 00 75 12 48 8b 0d da d1 81 00
+0x00007ff884ff0c1e:   48 8b 01 ff 50 20 48 8b d8 eb 08 48 8b 59 18 48
+0x00007ff884ff0c2e:   83 c3 04 48 83 3d b7 d2 81 00 00 40 b7 01 74 0f
+0x00007ff884ff0c3e:   48 8b d3 48 8d 0d 28 90 62 00 e8 73 c0 f2 ff 48
+0x00007ff884ff0c4e:   8d 54 24 20 48 8b cb e8 56 d9 3a 00 85 c0 74 19
+0x00007ff884ff0c5e:   40 84 ed 74 14 48 8b d3 48 8d 0d 2b 90 62 00 e8
+0x00007ff884ff0c6e:   1e d3 ff ff 40 32 ff eb 7a 80 3e 03 75 20 48 8b
+0x00007ff884ff0c7e:   cb e8 4c 80 3a 00 84 c0 75 69 48 8b d3 48 8d 0d
+0x00007ff884ff0c8e:   36 90 62 00 e8 f9 d2 ff ff 40 32 ff eb 55 48 8b
+0x00007ff884ff0c9e:   56 08 4c 8b 44 24 40 48 85 d2 74 05 49 3b d0 75
+0x00007ff884ff0cae:   0b 48 63 44 24 34 48 39 46 10 74 37 40 32 ff 40
+0x00007ff884ff0cbe:   38 3d ad 7d 82 00 74 1c 49 3b d0 48 8d 05 18 90
+0x00007ff884ff0cce:   62 00 48 8d 0d 29 90 62 00 48 0f 45 c8 e8 b0 d2
+0x00007ff884ff0cde:   ff ff eb 0f 48 8b d3 48 8d 0d 34 90 62 00 e8 9f
+0x00007ff884ff0cee:   d2 ff ff 80 3d 79 7d 82 00 00 74 10 40 84 ff 75
+0x00007ff884ff0cfe:   0b c6 05 eb c3 83 00 01 b0 01 eb 04 40 0f b6 c7
+0x00007ff884ff0d0e:   48 8b 4c 24 50 48 33 cc e8 25 95 56 00 4c 8d 5c 
+
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00007ff8857c7818, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x000001e9ad43aab0 GCTaskThread "GC Thread#0" [stack: 0x000000d98f500000,0x000000d98f600000] [id=9400]
+  0x000001e9ad44c900 ConcurrentGCThread "G1 Main Marker" [stack: 0x000000d98f600000,0x000000d98f700000] [id=16372]
+  0x000001e9ad44d310 ConcurrentGCThread "G1 Conc#0" [stack: 0x000000d98f700000,0x000000d98f800000] [id=13356]
+  0x000001e9c84320c0 ConcurrentGCThread "G1 Refine#0" [stack: 0x000000d98f800000,0x000000d98f900000] [id=19304]
+  0x000001e9c8432ae0 ConcurrentGCThread "G1 Service" [stack: 0x000000d98f900000,0x000000d98fa00000] [id=13440]
+
+=>0x000001e9ad3edb60 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3040, stack(0x000000d98f400000,0x000000d98f500000)]
+
+Threads with active compile tasks:
+
+VM state: not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap address: 0x0000000701000000, size: 4080 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+
+CDS archive(s) mapped at: [0x0000000000000000-0x0000000000000000-0x0000000000000000), size 0, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0, Narrow klass range: 0x0
+
+GC Precious Log:
+ CPUs: 6 total, 6 available
+ Memory: 16317M
+ Large Page Support: Disabled
+ NUMA Support: Disabled
+ Compressed Oops: Enabled (Zero based)
+ Heap Region Size: 2M
+ Heap Min Capacity: 8M
+ Heap Initial Capacity: 256M
+ Heap Max Capacity: 4080M
+ Pre-touch: Disabled
+ Parallel Workers: 6
+ Concurrent Workers: 2
+ Concurrent Refinement Workers: 6
+ Periodic GC: Disabled
+
+Heap:
+ garbage-first heap   total 262144K, used 0K [0x0000000701000000, 0x0000000800000000)
+  region size 2048K, 0 young (0K), 0 survivors (0K)
+
+[error occurred during error reporting (printing heap information), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff8853f8d89]
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes unloaded (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+VM Operations (0 events):
+No events
+
+Events (2 events):
+Event: 0.004 Loaded shared library D:\Program Files (x86)\Java\bin\java.dll
+Event: 0.005 Loaded shared library D:\Program Files (x86)\Java\bin\zip.dll
+
+
+Dynamic libraries:
+0x00007ff6519a0000 - 0x00007ff6519b0000 	D:\Program Files (x86)\Java\bin\java.exe
+0x00007ff8fb6b0000 - 0x00007ff8fb8a5000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ff8faea0000 - 0x00007ff8faf5e000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ff8f8e20000 - 0x00007ff8f90e8000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ff8f9490000 - 0x00007ff8f9590000 	C:\Windows\System32\ucrtbase.dll
+0x00007ff8e8790000 - 0x00007ff8e87a8000 	D:\Program Files (x86)\Java\bin\jli.dll
+0x00007ff8e8770000 - 0x00007ff8e878a000 	D:\Program Files (x86)\Java\bin\VCRUNTIME140.dll
+0x00007ff8f9df0000 - 0x00007ff8f9e9c000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ff8f97b0000 - 0x00007ff8f984e000 	C:\Windows\System32\msvcrt.dll
+0x00007ff8faf60000 - 0x00007ff8faffb000 	C:\Windows\System32\sechost.dll
+0x00007ff8fa5c0000 - 0x00007ff8fa6ea000 	C:\Windows\System32\RPCRT4.dll
+0x00007ff8fb090000 - 0x00007ff8fb231000 	C:\Windows\System32\USER32.dll
+0x00007ff8f9330000 - 0x00007ff8f9352000 	C:\Windows\System32\win32u.dll
+0x00007ff8dffb0000 - 0x00007ff8e024a000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
+0x00007ff8fa3e0000 - 0x00007ff8fa40b000 	C:\Windows\System32\GDI32.dll
+0x00007ff8f95e0000 - 0x00007ff8f96ed000 	C:\Windows\System32\gdi32full.dll
+0x00007ff8f93f0000 - 0x00007ff8f948d000 	C:\Windows\System32\msvcp_win.dll
+0x00007ff8f3150000 - 0x00007ff8f315a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ff8fb640000 - 0x00007ff8fb670000 	C:\Windows\System32\IMM32.DLL
+0x00007ff8f11b0000 - 0x00007ff8f11bc000 	D:\Program Files (x86)\Java\bin\vcruntime140_1.dll
+0x00007ff8c48f0000 - 0x00007ff8c497d000 	D:\Program Files (x86)\Java\bin\msvcp140.dll
+0x00007ff884d30000 - 0x00007ff8858ee000 	D:\Program Files (x86)\Java\bin\server\jvm.dll
+0x00007ff8fa4e0000 - 0x00007ff8fa4e8000 	C:\Windows\System32\PSAPI.DLL
+0x00007ff8a54f0000 - 0x00007ff8a54f9000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ff8dc8b0000 - 0x00007ff8dc8d7000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ff8fa550000 - 0x00007ff8fa5bb000 	C:\Windows\System32\WS2_32.dll
+0x00007ff8f6cd0000 - 0x00007ff8f6ce2000 	C:\Windows\SYSTEM32\kernel.appcore.dll
+0x00007ff8f1190000 - 0x00007ff8f119a000 	D:\Program Files (x86)\Java\bin\jimage.dll
+0x00007ff8f28c0000 - 0x00007ff8f2aa4000 	C:\Windows\SYSTEM32\DBGHELP.DLL
+0x00007ff8f2b50000 - 0x00007ff8f2b7c000 	C:\Windows\SYSTEM32\dbgcore.DLL
+0x00007ff8f9360000 - 0x00007ff8f93e2000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007ff8d4960000 - 0x00007ff8d4985000 	D:\Program Files (x86)\Java\bin\java.dll
+0x00007ff8e7aa0000 - 0x00007ff8e7ab8000 	D:\Program Files (x86)\Java\bin\zip.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;D:\Program Files (x86)\Java\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e;D:\Program Files (x86)\Java\bin\server
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 
+java_command: <unknown>
+java_class_path (initial): <not set>
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 3                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 2                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 6                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 2097152                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 268435456                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 4278190080                                {product} {ergonomic}
+   size_t MaxNewSize                               = 2566914048                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 2097152                                   {product} {ergonomic}
+   size_t MinHeapSize                              = 8388608                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5832780                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122912730                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122912730                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+   size_t SoftMaxHeapSize                          = 4278190080                             {manageable} {ergonomic}
+     bool UseCompressedClassPointers               = true                           {product lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                           {product lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Local\GitHubDesktop\bin
+USERNAME=user
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS:
+ Windows 10 , 64 bit Build 19041 (10.0.19041.1348)
+OS uptime: 4 days 14:02 hours
+
+CPU: total 6 (initial active 6) (6 cores per cpu, 1 threads per core) family 6 model 158 stepping 10 microcode 0xd6, cx8, cmov, fxsr, mmx, 3dnowpref, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, lzcnt, tsc, tscinvbit, avx, avx2, aes, erms, clmul, bmi1, bmi2, adx, fma, vzeroupper, clflush, clflushopt
+
+Memory: 4k page, system-wide physical 16317M (10126M free)
+TotalPageFile size 18749M (AvailPageFile size 9892M)
+current process WorkingSet (physical memory assigned to process): 12M, peak: 12M
+current process commit charge ("private bytes"): 334M, peak: 334M
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (17.0.1+12-LTS-39) for windows-amd64 JRE (17.0.1+12-LTS-39), built on Sep 27 2021 18:41:35 by "mach5one" with MS VC++ 16.8 (VS2019)
+
+END.

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ocean
+  m_Shader: {fileID: -6465566751694194690, guid: a71fd8a78281e464d8ed9087dc9f7ce6, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_3a25b8816b7d4cd28c6dbaa9b2e6791c:
+        m_Texture: {fileID: 2800000, guid: 8f1eb933b3ee8d14abec525fec4e122c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_4abda242a8b14a35a4e7c1925f1f246d: 0.001
+    - Vector1_59081dd066ee4a33bed545618863bc8b: 0.69
+    - Vector1_ab9c8baf29f44c95a49b8a7535fc38f4: 0.53
+    - Vector1_b25b364262724ede9a6b9e05d4da150c: 0.01
+    - Vector1_b94c141b6c5e47739191c98139da2b5d: 25.47
+    - Vector1_e20d806510a44492b43a34d990468347: 2.2
+    m_Colors:
+    - Color_5ebcefe4c114466390769b1b832e33eb: {r: 0, g: 0.46669236, b: 0.5471698, a: 0}
+    - Color_6a3c14ea220d40fda2d6e188a3fa5b0f: {r: 0.22895159, g: 0.8666667, b: 0.990566, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &1667869821406202897
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
